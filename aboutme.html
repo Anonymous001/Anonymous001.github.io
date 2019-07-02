@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.png" type="image/icon"> 
+
+    <title>Andy Chan</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3> Andy <img src="images/headshottiny.png" height="46px" width="46px"> Chan</h3>
+
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="./education.html">Education</a>
+                </li>
+                <li>
+                    <a href="./workexperience.html">Work Experience</a>
+                </li>
+                <li>
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./contactme.html">Contact Me</a>
+                </li>
+                
+                
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <img src="images/github-icon.png" width="40px" height="40px">
+                    <img src="images/linkedin-icon.png" width="40px" height="40px">
+                    <img src="images/resume-icon.png" width="40px" height="40px">
+                    <img src="images/mail-icon.png" width="40px" height="40px">
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div>About Me</div>
+                </div>
+            </nav>
+            <div class="container-fluid divcenter">
+                <h1 align="right">ANDY CHAN</h1><br>
+                <img src="images/scenic.jpg" width="250px" height="326px" align="right" class="img-fluid pb-3 pr-3 pl-3">
+                <h2 style="center">About Me</h2><br>
+                <div class="pb-3 pr-3 pl-3">Andy, who is fast at grasping new concepts and ideas, studies Accounting at University of San Francisco. He is a debater at day and a self-taught programmer at night. Winning 2nd place at hackathons and going undefeated at debate competitions, Andy pervails in competition. Loving challenges, Andy has taken 8 advance placement courses which allowed him to graduate with bachelors in Accounting before he reaches 20 years old! Andy is excited to meet and work with you so feel free to contact him down below!</div>
+            </div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+    </div>
+</body>
+
+</html>

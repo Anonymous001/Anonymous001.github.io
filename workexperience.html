@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.png" type="image/icon"> 
+
+    <title>Andy Chan</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3> Andy <img src="images/headshottiny.png" height="46px" width="46px"> Chan</h3>
+
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="./education.html">Education</a>
+                </li>
+                <li>
+                    <a href="./workexperience.html">Work Experience</a>
+                </li>
+                <li>
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./contactme.html">Contact Me</a>
+                </li>
+                
+                
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <img src="images/github-icon.png" width="40px" height="40px">
+                    <img src="images/linkedin-icon.png" width="40px" height="40px">
+                    <img src="images/resume-icon.png" width="40px" height="40px">
+                    <img src="images/mail-icon.png" width="40px" height="40px">
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div>Work Experience</div>
+                </div>
+            </nav>
+            <table class="table">
+              <thead>
+                  <th scope="col">Date</th>
+                  <th scope="col">Company</th>
+                  <th scope="col">Position</th>
+                  <th scope="col">Description</th>
+              </thead>  
+              <tbody>
+                  <tr>
+                    <td scope="row">March 2019 - Present</td>
+                        <td>
+                            <strong>Bank of America, San Francisco, CA</strong>
+                        </td>
+                        <td>    
+                            Customer Service Representative
+                        </td>
+                        <td>
+                            •   Referred clients to sales opportunities like opening credit cards, investment accounts, checking accounts, and savings accounts.
+                            <br>
+                            •   Handled client face-to-face interactions with deposits, withdrawals, transfers, payments, etc.
+
+                        </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">June - August 2018</td>
+                        <td>
+                            <strong>Real Estate at Port of San Francisco, San Francisco, CA</strong>
+                        </td>
+                        <td>    
+                            Business Intern
+                        </td>
+                        <td>
+                            •    Analyzed over 500+ lease agreements that is currently used by the City and County of San Francisco to calculate vacancy, rent prices, rent increase, and future profits.
+                            <br>
+                            •   Contributed to 5 department meetings by aggregating data and charts and sent out 100+ rent invoices to tenants which keeps tenants responsible for their bills.
+                        </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">June - August 2017</td>
+                        <td>
+                            <strong>SFMTA Engineering Department, San Francisco, CA</strong>
+                        </td>
+                        <td>    
+                            Engineering Intern
+                        </td>
+                        <td>
+                            ●   Reviewed 200+ Engineering Feeder Diagrams that show the exact specification for all electrical work needed for San Francisco transportation system.
+                            <br>
+                            ●   Used Excel and VBA skills to input locations of 700+ electrical manholes and created a program that allow access to Excel editing with one password and allow read-only with another.
+
+                        </td>
+                  </tr>
+                <tr>
+                    <td scope="row">June - August 2016</td>
+                        <td>
+                            <strong>City Hall of San Francisco District 2 under Supervisor Mark Farrell, San Francisco, CA</strong>
+                        </td>
+                        <td>    
+                            Outreach Intern
+                        </td>
+                        <td>
+                            ●  Created an Excel program for supervisor Margaux Kelly using VBA to help with data collection; supported legislative aides, answered calls to 311 and solved issues, researched documents, trained peers, assigned working schedule to peers.
+                            <br>    
+                            ●   Represented the 67,000 people living in District 2 of San Francisco and helped solve their issues or bring attention of the issue to their district supervisor
+
+                        </td>
+                  </tr>
+                </tbody>
+             </table>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+    </div>
+</body>
+
+</html>

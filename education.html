@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.png" type="image/icon"> 
+
+    <title>Andy Chan</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3> Andy <img src="images/headshottiny.png" height="46px" width="46px"> Chan</h3>
+
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="./education.html">Education</a>
+                </li>
+                <li>
+                    <a href="./workexperience.html">Work Experience</a>
+                </li>
+                <li>
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./contactme.html">Contact Me</a>
+                </li>
+                
+                
+                
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <img src="images/github-icon.png" width="40px" height="40px">
+                    <img src="images/linkedin-icon.png" width="40px" height="40px">
+                    <img src="images/resume-icon.png" width="40px" height="40px">
+                    <img src="images/mail-icon.png" width="40px" height="40px">
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div>Education</div>
+                </div>
+            </nav>
+            <table class="table">
+              <thead>
+                  <th scope="col">Date</th>
+                  <th scope="col">School</th>
+                  <th scope="col">Description</th>
+              </thead>  
+              <tbody>
+                  <tr>
+                    <td scope="row">August 2018 - May 2021</td>
+                        <td>
+                            <strong>University of San Francisco</strong>
+                        </td>
+                        <td>
+                            •   B.S., Business Administration; Major: Accounting
+                            <br>
+                            •   Graduate in 3 years
+                            <br>
+                            •   University of San Francisco Presidential Academic Merit Scholarship
+                            <br>
+                            •   University of San Francisco Global Award
+                            <br>
+                            •   Stock Investment Club 2nd Place Winner
+                            <br>
+                            •   Finalist at Robert Barbera Debate Tournament
+
+                        </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">August 2014 - June 2018 </td>
+                        <td>
+                            <strong>Lowell High School</strong>
+                        </td>
+                        <td>
+                            •   National Blue Ribbon School Rank 54th in the nation
+                            <br>
+                            •   Honor Student with Weighted GPA of 4.0
+                            <br>
+                            •   Earned College Board AP Scholar with Distinction (8 AP courses)
+                            <br>
+                            •   Lowell High School's Forensic Society Speech and Debate Team (Varsity) - attended twelve debate tournaments over the course of 4 years in high schools around California and won an undefeated trophy.
+                        </td>
+                  </tr>
+                </tbody>
+             </table>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+    </div>
+</body>
+
+</html>
